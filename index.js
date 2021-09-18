@@ -1,7 +1,8 @@
 module.exports = {
   plugins: [
     'stylelint-no-unsupported-browser-features',
-    'stylelint-declaration-block-no-ignored-properties'
+    'stylelint-declaration-block-no-ignored-properties',
+    'stylelint-value-no-unknown-custom-properties'
   ],
   extends: [
     'stylelint-config-idiomatic-order',
@@ -28,5 +29,6 @@ module.exports = {
       },
     ],
     'plugin/declaration-block-no-ignored-properties': true,
+    'csstools/value-no-unknown-custom-properties': true
   },
 };

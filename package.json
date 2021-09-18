@@ -1,6 +1,6 @@
 {
   "name": "@frontendweekly/stylelint-config-molle",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "stylelint config for frontendweekly project",
   "main": "index.js",
   "files": [
@@ -12,16 +12,13 @@
   "keywords": [],
   "author": "Yuya Saito <hello@studiomohawk.com> (https://github.com/studiomohawk)",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/frontendweekly",
-    "access": "public"
-  },
   "dependencies": {
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1"
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-value-no-unknown-custom-properties": "^3.0.0"
   },
   "peerDependencies": {
     "prettier": "*",
@@ -33,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frontendweekly/stylelint-config-molle.git"
+    "url": "git+https://github.com/frontendweekly/molle-stylelint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/frontendweekly/stylelint-config-molle/issues"
+    "url": "https://github.com/frontendweekly/molle-stylelint-config/issues"
   },
-  "homepage": "https://github.com/frontendweekly/stylelint-config-molle#readme"
+  "homepage": "https://github.com/frontendweekly/molle-stylelint-config#readme"
 }
