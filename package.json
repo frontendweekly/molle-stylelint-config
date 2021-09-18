@@ -1,5 +1,5 @@
 {
-  "name": "@frontendweekly/stylelint-config-molle",
+  "name": "@frontendweekly/molle-stylelint-config",
   "version": "1.0.0",
   "description": "stylelint config for frontendweekly project",
   "main": "index.js",
